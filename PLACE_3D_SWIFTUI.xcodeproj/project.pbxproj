@@ -10,6 +10,10 @@
 		713350852BD2915800879B50 /* Bottle_Set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 713350842BD2915800879B50 /* Bottle_Set.usdz */; };
 		713350872BD291A800879B50 /* Books.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 713350862BD291A800879B50 /* Books.usdz */; };
 		713350892BD291EF00879B50 /* Tins.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 713350882BD291EE00879B50 /* Tins.usdz */; };
+		715B7AB02BD634D200640761 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715B7AAF2BD634D200640761 /* CustomARView.swift */; };
+		718DF7112BD6947C00AB8E12 /* HDD_Clocks.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 718DF7102BD6947C00AB8E12 /* HDD_Clocks.usdz */; };
+		718DF7152BD6978300AB8E12 /* Wall_Clock.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 718DF7142BD6978300AB8E12 /* Wall_Clock.usdz */; };
+		718DF7242BD8CEF900AB8E12 /* Clock.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 718DF7232BD8CEF900AB8E12 /* Clock.usdz */; };
 		719E4E382B875EE20002AEA2 /* PLACE_3D_SWIFTUI_InfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E4E372B875EE20002AEA2 /* PLACE_3D_SWIFTUI_InfoApp.swift */; };
 		719E4E3A2B875EE20002AEA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719E4E392B875EE20002AEA2 /* ContentView.swift */; };
 		719E4E3C2B875EE30002AEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719E4E3B2B875EE30002AEA2 /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 		713350842BD2915800879B50 /* Bottle_Set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bottle_Set.usdz; sourceTree = "<group>"; };
 		713350862BD291A800879B50 /* Books.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Books.usdz; sourceTree = "<group>"; };
 		713350882BD291EE00879B50 /* Tins.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Tins.usdz; sourceTree = "<group>"; };
+		715B7AAF2BD634D200640761 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		718DF7102BD6947C00AB8E12 /* HDD_Clocks.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = HDD_Clocks.usdz; sourceTree = "<group>"; };
+		718DF7142BD6978300AB8E12 /* Wall_Clock.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Wall_Clock.usdz; sourceTree = "<group>"; };
+		718DF7232BD8CEF900AB8E12 /* Clock.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Clock.usdz; sourceTree = "<group>"; };
 		719E4E342B875EE20002AEA2 /* PLACE_3D_SWIFTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLACE_3D_SWIFTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719E4E372B875EE20002AEA2 /* PLACE_3D_SWIFTUI_InfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLACE_3D_SWIFTUI_InfoApp.swift; sourceTree = "<group>"; };
 		719E4E392B875EE20002AEA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +99,9 @@
 			children = (
 				719E4E512B876EB00002AEA2 /* chair_swan.usdz */,
 				719E4E4C2B8763470002AEA2 /* Bananas.usdz */,
+				718DF7232BD8CEF900AB8E12 /* Clock.usdz */,
+				718DF7142BD6978300AB8E12 /* Wall_Clock.usdz */,
+				718DF7102BD6947C00AB8E12 /* HDD_Clocks.usdz */,
 				713350862BD291A800879B50 /* Books.usdz */,
 				713350882BD291EE00879B50 /* Tins.usdz */,
 				713350842BD2915800879B50 /* Bottle_Set.usdz */,
@@ -129,6 +140,7 @@
 			children = (
 				719E4E372B875EE20002AEA2 /* PLACE_3D_SWIFTUI_InfoApp.swift */,
 				719E4E392B875EE20002AEA2 /* ContentView.swift */,
+				715B7AAF2BD634D200640761 /* CustomARView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718DF7242BD8CEF900AB8E12 /* Clock.usdz in Resources */,
 				713350852BD2915800879B50 /* Bottle_Set.usdz in Resources */,
 				719E4E522B876EB00002AEA2 /* chair_swan.usdz in Resources */,
 				71D783AD2BD24A7A009D881D /* robot_walk_idle.usdz in Resources */,
@@ -204,7 +217,9 @@
 				71C96F532BD2B5C80023E955 /* AR-DEMO-SWIFTUI-Info.plist in Resources */,
 				713350872BD291A800879B50 /* Books.usdz in Resources */,
 				719E4E3F2B875EE30002AEA2 /* Preview Assets.xcassets in Resources */,
+				718DF7152BD6978300AB8E12 /* Wall_Clock.usdz in Resources */,
 				713350892BD291EF00879B50 /* Tins.usdz in Resources */,
+				718DF7112BD6947C00AB8E12 /* HDD_Clocks.usdz in Resources */,
 				719E4E3C2B875EE30002AEA2 /* Assets.xcassets in Resources */,
 				71D783A82BD24382009D881D /* Launch Screen.storyboard in Resources */,
 			);
@@ -218,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719E4E3A2B875EE20002AEA2 /* ContentView.swift in Sources */,
+				715B7AB02BD634D200640761 /* CustomARView.swift in Sources */,
 				719E4E382B875EE20002AEA2 /* PLACE_3D_SWIFTUI_InfoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
